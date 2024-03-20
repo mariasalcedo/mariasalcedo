@@ -54,21 +54,8 @@
 </p>
 <p>
   
-![Gradle](https://img.shields.io/badge/Gradle-informational?style=for-the-badge&logo=gradle&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-informational?style=for-the-badge&logo=apache+maven&logoColor=white)
-    
-</p>
-<p>
-
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu+bash&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-</p>
-<p>
-  
 ![Arch Linux](https://img.shields.io/badge/Arch%20Linux-FCC624?style=for-the-badge&logo=arch+linux&logoColor=black)
 ![Intellij IDEA](https://img.shields.io/badge/Intellij%20IDEA-000000?style=for-the-badge&logo=intellij+idea&logoColor=white)
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 </p>
 
