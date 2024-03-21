@@ -13,7 +13,7 @@
   <a href="https://www.linkedin.com/in/maria-s-56138aa0/">
     <img alt="Maria Salcedo LinkedIn profile" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=flat&logo=linkedin&logoColor=white&color=gray" />
   </a>
-  <a href="https://mastodon.green/@masagu">
+  <a rel="me" href="https://mastodon.green/@masagu">
     <img alt="Mastodon" src="https://img.shields.io/static/v1?style=flat&message=Mastodon&color=6364FF&logo=mastodon&logoColor=white&label=" />
   </a>
 </p>
