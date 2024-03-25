@@ -56,9 +56,14 @@
 
 ## Statistics
 
-<p>
-  <img alt="mariasalcedo GitHub statistics" src="https://github-readme-stats.vercel.app/api?username=mariasalcedo&theme=react&count_private=true&show_icons=true" />
-</p>
+[![](https://raw.githubusercontent.com/mariasalcedo/mariasalcedo/main/profile-summary-card-output/city_lights/0-profile-details.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+<details>
+  <summary><b>more stats...</b></summary>
+  
+[![](https://raw.githubusercontent.com/mariasalcedo/mariasalcedo/main/profile-summary-card-output/city_lights/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/mariasalcedo/mariasalcedo/main/profile-summary-card-output/city_lights/2-most-commit-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+[![](https://raw.githubusercontent.com/mariasalcedo/mariasalcedo/main/profile-summary-card-output/city_lights/3-stats.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/mariasalcedo/mariasalcedo/main/profile-summary-card-output/city_lights/4-productive-time.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+
+</details>
 
 <p align="center"><q>Colorless green ideas sleep furiously.</q> - Noam Chomsky</p>
 
@@ -76,4 +81,9 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+
+
+<p>
+  <img alt="mariasalcedo GitHub statistics" src="https://github-readme-stats.vercel.app/api?username=mariasalcedo&theme=react&count_private=true&show_icons=true" />
+</p>
 -->
