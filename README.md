@@ -10,12 +10,15 @@
 - Maintaining :mortar_board: [mariasalcedo](https://github.com/mariasalcedo)
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/maria-s-56138aa0/">
+  <a href="https://www.linkedin.com/in/maria-salcedo-g/">
     <img alt="Maria Salcedo LinkedIn profile" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=flat&logo=linkedin&logoColor=white&color=gray" />
   </a>
   <a rel="me" href="https://mastodon.green/@masagu">
     <img alt="Mastodon" src="https://img.shields.io/static/v1?style=flat&message=Mastodon&color=6364FF&logo=mastodon&logoColor=white&label=" />
   </a>
+  <a href="https://www.freelancermap.de/profil/maria-salcedo-guzman" target="_blank" title="Profil von Maria Salcedo Guzman auf www.freelancermap.de">
+    <img loading="lazy" style="width:118px; height:24px" src="https://www.freelancermap.de/images/widgets/dashboard/fm-profile-badge-yankee.svg">
+  </a>           
 </p>
 
 ## Tech Stack
