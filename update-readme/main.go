@@ -8,7 +8,7 @@ import (
 	"os"
 )
 
-func makeReadme(filename string) error {
+func GenerateReadme(filename string) error {
 	fp := gofeed.NewParser()
 	feed, err := fp.ParseURL("https://masagu.dev/index.xml")
 	if err != nil {
@@ -17,9 +17,9 @@ func makeReadme(filename string) error {
 
 	blogItem := feed.Items[0]
 
-	pre, err := readPrecookedReadme("./PREREADME.md")
+	pre, err := ReadFileAsString("./PREREADME.md")
 	blog := "- Latest blog post :page_facing_up: [" + blogItem.Title + "](" + blogItem.Link + ")"
-	post, err := readPrecookedReadme("./POSTREADME.md")
+	post, err := ReadFileAsString("./POSTREADME.md")
 	data := fmt.Sprintf("%s\n%s\n%s", pre, blog, post)
 
 	file, err := os.Create(filename)
@@ -35,7 +35,7 @@ func makeReadme(filename string) error {
 	return file.Sync()
 }
 
-func readPrecookedReadme(filename string) (string, error) {
+func ReadFileAsString(filename string) (string, error) {
 	dat, err := os.ReadFile(filename)
 	if err != nil {
 		log.Fatalf("error reading file: %s %v", filename, err)
@@ -44,5 +44,5 @@ func readPrecookedReadme(filename string) (string, error) {
 }
 
 func main() {
-	makeReadme("../README.md")
+	GenerateReadme("../README.md")
 }

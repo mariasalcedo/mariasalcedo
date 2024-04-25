@@ -1,4 +1,4 @@
-module github.com/mariasalcedo/mariasalcedo/update
+module github.com/mariasalcedo/mariasalcedo/update-readme
 
 go 1.21.5
 

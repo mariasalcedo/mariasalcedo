@@ -1,0 +1,2 @@
+GET https://mastodon.green/api/v1/apps/verify_credentials
+Authorization:  Bearer ZNUp-GoGlbuyUKd7IoJ86-EjydILL_N4qJmIQb25MS8

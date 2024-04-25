@@ -1,4 +1,4 @@
-name: update
+name: update-readme
 
 on:
   push:
@@ -17,7 +17,7 @@ jobs:
           fetch-depth: 1
       - name: Generate README
         run: |
-          cd ${GITHUB_WORKSPACE}/update/
+          cd ${GITHUB_WORKSPACE}/update-readme/
           go run main.go
       - name: 🚀 Deploy
         run: |
