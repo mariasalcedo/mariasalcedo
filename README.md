@@ -4,7 +4,7 @@
 ## Projects
 
 - Freelancing :globe_with_meridians: [www.masagu.dev](https://www.masagu.dev)
-- Latest blog post :page_facing_up: [(Re)starting a blog...](http://www.masagu.dev/blog/lets-start/)
+- Latest blog post :page_facing_up: [Automate new blog posts announcements](http://www.masagu.dev/blog/automate-blog-notification/)
 - Latest talk :speaking_head: [Java - Structured Concurrency @ JUG Ingolstadt (April 2024)](https://talks.masagu.dev/java-structured-concurrency)
 - Latest certification: [Certified Kubernetes Application Developer CKAD](https://www.credly.com/badges/5f445c1e-bbcd-495d-8559-607f971b0dd9)
 - Maintaining :mortar_board: [mariasalcedo](https://github.com/mariasalcedo)
