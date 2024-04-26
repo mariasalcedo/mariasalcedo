@@ -11,7 +11,7 @@ import (
 
 func main() {
 	var msgArg, visibleArg string
-	dryRunArg := flag.Bool("dryrun", false, "to validate credentials, default=false")
+	dryRunArg := flag.Bool("dry-run", false, "to validate credentials, default=false")
 	oauthArg := flag.Bool("oauth", false, "to validate credentials, default=false")
 	flag.StringVar(&msgArg, "message", "my test message", "message to toot, defaults to my test message")
 	flag.StringVar(&visibleArg, "visibility", "unlisted", "visibility flag, default=unlisted")
