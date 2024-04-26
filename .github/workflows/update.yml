@@ -30,6 +30,10 @@ jobs:
         run: |
           cd ${GITHUB_WORKSPACE}/update-readme/
           echo "NEW_POST=$(go run main.go)" >> $GITHUB_OUTPUT
+      - name: Check generate README output
+        if: github.ref == 'refs/heads/main'
+        run: |
+          echo '${{ steps.feed.outputs.NEW_POST }}'
       - name: 🚀 Update Readme
         if: github.ref == 'refs/heads/main'
         id: update_readme
