@@ -1,6 +1,7 @@
 name: new-blog-post-notifier
 
 on:
+  workflow_dispatch:
   pull_request:
     branches:
       - main
