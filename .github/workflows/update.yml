@@ -47,4 +47,4 @@ jobs:
         if: github.ref == 'refs/heads/main' && steps.update_readme.outputs.IS_UPDATED == 'true'
         run: |
           cd ${GITHUB_WORKSPACE}/mastodon-notifier/
-          go run main.go --message='✨New blog post ✨👉${{ steps.feed.outputs.NEW_POST }}'
+          go run main.go --message='✨New blog post ✨👉${{ steps.feed.outputs.NEW_POST }}' --visibility=public
