@@ -10,16 +10,17 @@ import (
 )
 
 func main() {
-	var msgArg, visibleArg string
-	dryRunArg := flag.Bool("dryrun", false, "to validate credentials, default=false")
-	oauthArg := flag.Bool("oauth", false, "to validate credentials, default=false")
-	flag.StringVar(&msgArg, "message", "my test message", "message to toot, defaults to my test message")
-	flag.StringVar(&visibleArg, "visibility", "unlisted", "visibility flag, default=unlisted")
+	var msgArg, visibilityArg string
+	var dryRunArg, oauthArg bool
+	flag.BoolVar(&dryRunArg, "dry-run", false, "to execute a dry run without sending a message")
+	flag.BoolVar(&oauthArg, "oauth", false, "to validate credentials")
+	flag.StringVar(&msgArg, "message", "my test message", "message to toot")
+	flag.StringVar(&visibilityArg, "visibility", "unlisted", "visibility flag")
 
 	flag.Parse()
 
 	c := func() *client.Client {
-		switch *oauthArg {
+		switch oauthArg {
 		case true:
 			return GetOauthClient()
 		default:
@@ -27,7 +28,7 @@ func main() {
 		}
 	}()
 
-	if *dryRunArg {
+	if dryRunArg {
 		if err := c.ValidateCredentials(context.Background()); err != nil {
 			log.Fatal(err)
 		}
@@ -39,7 +40,7 @@ func main() {
 	}
 	toot := client.TootRequest{
 		Status:     msgArg,
-		Visibility: visibleArg,
+		Visibility: visibilityArg,
 	}
 	tootResponse, err := c.PostStatus(context.Background(), toot)
 	if err != nil {
