@@ -1,6 +1,9 @@
-name: update-readme
+name: new-blog-post-notifier
 
 on:
+  pull_request:
+    branches:
+      - main
   push:
     branches:
       - main
@@ -8,23 +11,40 @@ on:
     - cron: '0 * * * 1'
 
 jobs:
-  build-and-deploy:
+  new-blog-post-notifier:
+    env:
+      MASTODON_CLIENT_TOKEN: ${{ secrets.MASTODON_CLIENT_TOKEN }}
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@master
         with:
           fetch-depth: 1
+      - name: Test mastodon-notifier
+        run: |
+          cd ${GITHUB_WORKSPACE}/mastodon-notifier/
+          go test
+          go run main.go --dry-run=true
       - name: Generate README
+        if: github.ref == 'refs/heads/main'
+        id: feed
         run: |
           cd ${GITHUB_WORKSPACE}/update-readme/
-          go run main.go
-      - name: 🚀 Deploy
+          echo "NEW_POST=$(go run main.go)" >> $GITHUB_OUTPUT
+      - name: 🚀 Update Readme
+        if: github.ref == 'refs/heads/main'
+        id: update_readme
         run: |
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git add -A
+          echo "IS_UPDATED=false" >> $GITHUB_OUTPUT
           if ! git diff-index --quiet HEAD; then
             git commit -am "Update README.md with new blogpost!"
             git push --all -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
+            echo "IS_UPDATED=true" >> $GITHUB_OUTPUT
           fi
+      - name: 🚀 Notify Mastodon
+        if: github.ref == 'refs/heads/main' && steps.update_readme.outputs.IS_UPDATED == 'true'
+        run: |
+          cd ${GITHUB_WORKSPACE}/mastodon-notifier/
+          go run main.go --message='✨New blog post ✨👉${{ steps.feed.outputs.NEW_POST }}'

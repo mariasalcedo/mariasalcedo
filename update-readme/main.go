@@ -21,6 +21,7 @@ func GenerateReadme(filename string) error {
 	blog := "- Latest blog post :page_facing_up: [" + blogItem.Title + "](" + blogItem.Link + ")"
 	post, err := ReadFileAsString("./POSTREADME.md")
 	data := fmt.Sprintf("%s\n%s\n%s", pre, blog, post)
+	fmt.Printf("%s %s", blogItem.Title, blogItem.Link)
 
 	file, err := os.Create(filename)
 	if err != nil {
