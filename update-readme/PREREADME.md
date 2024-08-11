@@ -3,4 +3,4 @@
 
 ## Projects
 
-- Freelancing :globe_with_meridians: [www.masagu.dev](https://www.masagu.dev)
+- Blogging :globe_with_meridians: [www.masagu.dev](https://www.masagu.dev)
