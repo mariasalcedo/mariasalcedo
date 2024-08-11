@@ -3,14 +3,10 @@
 
 ## Projects
 
-- Blogging :globe_with_meridians: [www.masagu.dev](https://www.masagu.dev)
+- Freelancing :globe_with_meridians: [www.masagu.dev](https://www.masagu.dev)
 - Latest blog post :page_facing_up: [KCNA prep: Reviewing Cloud-Native Tools origin and intentionality](http://www.masagu.dev/blog/kcna-tooling/)
 - Latest talk :speaking_head: [Java - Structured Concurrency @ JUG Ingolstadt (April 2024)](https://talks.masagu.dev/java-structured-concurrency)
-- Latest certifications:
-  - [CKA: Certified Kubernetes Administrator](https://www.credly.com/badges/ce9be7c9-6cda-42dc-9cd9-c74edc67526b/public_url)
-  - [KCSA: Kubernetes and Cloud Native Security Associate](https://www.credly.com/badges/9191a0c2-7bbb-44bb-be5a-08cb8e3cac84/public_url)
-  - [KCNA: Kubernetes and Cloud Native Associate](https://www.credly.com/badges/e2da9453-8017-4568-9414-bf6091e23c75/public_url)
-  - [CKAD: Certified Kubernetes Application Developer](https://www.credly.com/badges/5f445c1e-bbcd-495d-8559-607f971b0dd9)
+- Latest certification: [Certified Kubernetes Application Developer CKAD](https://www.credly.com/badges/5f445c1e-bbcd-495d-8559-607f971b0dd9)
 - Maintaining :mortar_board: [mariasalcedo](https://github.com/mariasalcedo)
 
 <p align="left">
@@ -19,7 +15,10 @@
   </a>
   <a rel="me" href="https://mastodon.green/@masagu">
     <img alt="Mastodon" src="https://img.shields.io/static/v1?style=flat&message=Mastodon&color=6364FF&logo=mastodon&logoColor=white&label=" />
-  </a>       
+  </a>
+  <a href="https://www.freelancermap.de/profil/maria-salcedo-guzman" target="_blank" title="Profil von Maria Salcedo Guzman auf www.freelancermap.de">
+    <img loading="lazy" style="width:118px; height:24px" src="https://www.freelancermap.de/images/widgets/dashboard/fm-profile-badge-yankee.svg">
+  </a>           
 </p>
 
 ## Tech Stack
