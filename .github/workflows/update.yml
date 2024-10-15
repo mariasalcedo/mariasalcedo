@@ -2,14 +2,14 @@ name: new-blog-post-notifier
 
 on:
   workflow_dispatch:
-  pull_request:
-    branches:
-      - main
-  push:
-    branches:
-      - main
-  schedule:
-    - cron: '0 19 * * 5'
+#  pull_request:
+#    branches:
+#      - main
+#  push:
+#    branches:
+#      - main
+#  schedule:
+#    - cron: '0 19 * * 5'
 
 jobs:
   new-blog-post-notifier:
