@@ -1,23 +1,17 @@
 
-  <!--<a href="https://www.masagu.dev" target="_blank" rel="noreferrer"><img align="center" alt="Maria Salcedo logo" src="https://masagu.mo.cloudinary.net/logo.png" width="200" /></a> -->
-
 ## Projects
 
-- Blogging :globe_with_meridians: [www.masagu.dev](https://www.masagu.dev)
+- 🚧under refactoring until further notice 🚧 Blogging :globe_with_meridians: [www.masagu.dev](https://www.masagu.dev)
 
-- Latest blog post :page_facing_up: [KCNA prep: Reviewing Cloud-Native Tools origin and intentionality](http://www.masagu.dev/blog/kcna-tooling/)
-- Latest talk :speaking_head: [Java - Structured Concurrency @ JUG Ingolstadt (April 2024)](https://talks.masagu.dev/java-structured-concurrency)
 - Latest certifications:
+  - [Kubestronaut](https://www.credly.com/badges/54301a81-0d50-4f29-9a19-30147902fc71/public_url)
   - [CKA: Certified Kubernetes Administrator](https://www.credly.com/badges/ce9be7c9-6cda-42dc-9cd9-c74edc67526b/public_url)
+  - [CKS: Certified Kubernetes Security Specialist](https://www.credly.com/badges/630baa1f-7358-414b-8bb0-5022f18a88aa/public_url)
   - [KCSA: Kubernetes and Cloud Native Security Associate](https://www.credly.com/badges/9191a0c2-7bbb-44bb-be5a-08cb8e3cac84/public_url)
   - [KCNA: Kubernetes and Cloud Native Associate](https://www.credly.com/badges/e2da9453-8017-4568-9414-bf6091e23c75/public_url)
   - [CKAD: Certified Kubernetes Application Developer](https://www.credly.com/badges/5f445c1e-bbcd-495d-8559-607f971b0dd9)
-- Maintaining :mortar_board: [mariasalcedo](https://github.com/mariasalcedo)
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/maria-salcedo-g/">
-    <img alt="Maria Salcedo LinkedIn profile" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=flat&logo=linkedin&logoColor=white&color=gray" />
-  </a>
   <a rel="me" href="https://mastodon.green/@masagu">
     <img alt="Mastodon" src="https://img.shields.io/static/v1?style=flat&message=Mastodon&color=6364FF&logo=mastodon&logoColor=white&label=" />
   </a>         
