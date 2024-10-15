@@ -1,5 +1,7 @@
 - Latest certifications:
+  - [Kubestronaut](https://www.credly.com/badges/54301a81-0d50-4f29-9a19-30147902fc71/public_url)
   - [CKA: Certified Kubernetes Administrator](https://www.credly.com/badges/ce9be7c9-6cda-42dc-9cd9-c74edc67526b/public_url)
+  - [CKS: Certified Kubernetes Security Specialist](https://www.credly.com/badges/630baa1f-7358-414b-8bb0-5022f18a88aa/public_url)
   - [KCSA: Kubernetes and Cloud Native Security Associate](https://www.credly.com/badges/9191a0c2-7bbb-44bb-be5a-08cb8e3cac84/public_url)
   - [KCNA: Kubernetes and Cloud Native Associate](https://www.credly.com/badges/e2da9453-8017-4568-9414-bf6091e23c75/public_url)
   - [CKAD: Certified Kubernetes Application Developer](https://www.credly.com/badges/5f445c1e-bbcd-495d-8559-607f971b0dd9)
