@@ -1,4 +1,3 @@
-- Latest talk :speaking_head: [Java - Structured Concurrency @ JUG Ingolstadt (April 2024)](https://talks.masagu.dev/java-structured-concurrency)
 - Latest certifications:
   - [CKA: Certified Kubernetes Administrator](https://www.credly.com/badges/ce9be7c9-6cda-42dc-9cd9-c74edc67526b/public_url)
   - [KCSA: Kubernetes and Cloud Native Security Associate](https://www.credly.com/badges/9191a0c2-7bbb-44bb-be5a-08cb8e3cac84/public_url)
@@ -7,9 +6,6 @@
 - Maintaining :mortar_board: [mariasalcedo](https://github.com/mariasalcedo)
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/maria-salcedo-g/">
-    <img alt="Maria Salcedo LinkedIn profile" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=flat&logo=linkedin&logoColor=white&color=gray" />
-  </a>
   <a rel="me" href="https://mastodon.green/@masagu">
     <img alt="Mastodon" src="https://img.shields.io/static/v1?style=flat&message=Mastodon&color=6364FF&logo=mastodon&logoColor=white&label=" />
   </a>         
