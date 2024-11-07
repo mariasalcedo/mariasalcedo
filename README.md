@@ -3,6 +3,8 @@
 
 - 🚧under refactoring until further notice 🚧 Blogging :globe_with_meridians: [www.masagu.dev](https://www.masagu.dev)
 
+- Interview on CNCF: [Kubestronaut on Orbit: Maria Salcedo](https://www.cncf.io/blog/2024/10/22/kubestronaut-in-orbit-maria-salcedo/)
+
 - Latest certifications:
   - [Kubestronaut](https://www.credly.com/badges/54301a81-0d50-4f29-9a19-30147902fc71/public_url)
   - [CKA: Certified Kubernetes Administrator](https://www.credly.com/badges/ce9be7c9-6cda-42dc-9cd9-c74edc67526b/public_url)
