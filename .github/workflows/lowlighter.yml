@@ -1,18 +1,18 @@
 ---
-name: Metrics
-on:
-  schedule: [{cron: "0 0 * * *"}]
+#name: Metrics
+#on:
+#  schedule: [{cron: "0 0 * * *"}]
   # Lines below let you run workflow manually and on each commit (optional)
-  workflow_dispatch:
-  push: {branches: ["main"]}
+#  workflow_dispatch:
+#  push: {branches: ["main"]}
 
-jobs:
-  github-metrics:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: vn7n24fzkq/github-profile-summary-cards@release
-        env:
-          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
-        with:
-          USERNAME: ${{ github.repository_owner }}
+#jobs:
+#  github-metrics:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: actions/checkout@v2
+#      - uses: vn7n24fzkq/github-profile-summary-cards@release
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+#        with:
+#          USERNAME: ${{ github.repository_owner }}
